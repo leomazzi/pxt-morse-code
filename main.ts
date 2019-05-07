@@ -79,18 +79,3 @@ namespace morse {
 
 }
 
-let br: number = morse.indexOfChar("0");
-let kod: number[] = morse.charToMorse("0");
-let s: string = "";
-
-for (let i = 0; i < kod.length; i++) {
-    if (kod[i] == 1) {
-        s = s + ".";
-    }
-    else {
-        s = s + "-";
-    }
-}
-
-basic.showString(s);
-basic.showNumber(br);
