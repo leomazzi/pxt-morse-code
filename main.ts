@@ -10,8 +10,8 @@ l_morse = [[1, 2], [2, 1, 1, 1], [2, 1, 2, 1], [2, 1, 1], [1], [1, 1, 2, 1], [2,
 namespace morse {
 
     //% block
-    //% morse_char.shadow="Char"
-    export function letterToMorse(morse_char: string): number {
+    //% char.defl="?"
+    export function letterToMorse(char: string): number {
         return 1;
     }
 
