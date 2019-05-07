@@ -6,7 +6,7 @@ l_morse = [[1, 2], [2, 1, 1, 1], [2, 1, 2, 1], [2, 1, 1], [1], [1, 1, 2, 1], [2,
 
 
 
-//% color="#AA278D"
+//% color=190 weight=100 icon="\uf1ec" block="Basic Blocks"
 namespace morse {
 
     //% block
