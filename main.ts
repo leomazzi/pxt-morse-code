@@ -10,8 +10,8 @@ l_morse = [[1, 2], [2, 1, 1, 1], [2, 1, 2, 1], [2, 1, 1], [1], [1, 1, 2, 1], [2,
 namespace morse {
 
     //% block
-    export function helloWorld() {
-
+    export function letterToMorse(c : string): number {
+        return 1;
     }
 
     // note that Caml casing yields lower case
