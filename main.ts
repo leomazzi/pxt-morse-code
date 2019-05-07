@@ -69,7 +69,7 @@ namespace morse {
 
     //% block="Returns an array that represents a dots and lines of a morse code representation of the passed char %char"
     //% char.defl="?"
-    export function letterToMorse(char: string): number[] {
+    export function charToMorse(char: string): number[] {
         let position: number = indexOfChar(char);
         if (position >= 0)
             return l_morse[position];
@@ -80,7 +80,7 @@ namespace morse {
 }
 
 let br: number = morse.indexOfChar("0");
-let kod: number[] = morse.letterToMorse("0");
+let kod: number[] = morse.charToMorse("0");
 let s: string = "";
 
 for (let i = 0; i < kod.length; i++) {
